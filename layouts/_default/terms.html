@@ -1,0 +1,24 @@
+{{- partial "header.html" . }}
+
+{{- $scope := .Site }}
+<header class="page-header">
+    <h1>共有 {{ len .Data.Terms }} 個項目</h1>
+</header>
+
+{{ $data := .Data }}
+{{ range .Data.Terms.ByCount }}
+{{ $termLink := printf "/%s/%s/" $data.Plural .Term | urlize }}
+
+<article class="post-entry">
+    <header class="entry-header">
+        <h2>{{ .Term }}</h2>
+    </header>
+    <section class="entry-content">
+        <p>{{ .Count }} 篇文章</p>
+    </section>
+    <a class="entry-link" href="{{ $termLink }}"></a>
+</article>
+{{ end }}
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6834090314855499" data-ad-slot="2767030263"></ins>
+
+{{- partial "footer.html" . }}
