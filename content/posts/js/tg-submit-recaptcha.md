@@ -3,6 +3,7 @@ title: '一起來幫網站加入 reCAPTCHA 吧'
 date: Sun, 05 May 2019 04:08:28 +0000
 draft: false
 tags: ['node', 'reCAPTCHA', '教學']
+categories: ['js','web','node']
 ---
 
 reCAPTCHA 是眾所皆知的工人 OCR 驗證系統，在 v3 中，直接由分數判斷是否是機器人，因此也不需要核取方塊了。

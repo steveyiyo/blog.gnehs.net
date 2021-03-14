@@ -3,6 +3,7 @@ title: '讓 node-sass-middleware 轉換 SASS'
 date: Sun, 02 Dec 2018 14:25:04 +0000
 draft: false
 tags: ['node', '教學']
+categories: ['js','node']
 ---
 
 最近在試 node-sass-middleware，但是怎麼試都不會動，開了 log 才發現說找不到 scss 檔案

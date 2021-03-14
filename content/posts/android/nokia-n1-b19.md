@@ -2,7 +2,8 @@
 title: 'Nokia N1 B19 救磚'
 date: Sun, 15 Apr 2018 08:46:17 +0000
 draft: false
-tags: ['教學']
+tags: ['救磚', '教學']
+categories: ['android']
 ---
 
 我手上的 Nokia N1 因為被搞到 bootloop 不得已只好來 `adb sideload` 了 思路是這樣的

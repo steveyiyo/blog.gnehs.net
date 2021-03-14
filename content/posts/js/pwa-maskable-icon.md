@@ -2,7 +2,8 @@
 title: '在 PWA 應用程式中使用遮罩圖示（maskable icon）'
 date: Sun, 22 Dec 2019 10:28:35 +0000
 draft: false
-tags: ['js', '教學']
+tags: ['js', 'pwa']
+categories: ['js']
 ---
 
 Chrome 最近釋出 79 版，終於支援了遮罩圖示（看看 Android 8 都出多久了），這篇教學會教你如何使用遮罩圖示。

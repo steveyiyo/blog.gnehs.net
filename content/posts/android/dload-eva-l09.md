@@ -2,7 +2,8 @@
 title: '華為P9救磚(EVA-L09)'
 date: Tue, 28 Feb 2017 15:19:14 +0000
 draft: false
-tags: ['EVA-L09', 'P9', '手機', '救磚', '教學', '華為']
+tags: ['手機', '救磚', '教學']
+categories: ['android']
 ---
 
 標題上打EVA-L09是因為文章裡的檔案只支援這個型號啦，事實上教學應該華為的裝置都通用 **若因本教學造成手機損毀恕不負責** ![](https://i.imgur.com/A0wsDB4.png) 首先，先把檔案下載下來
