@@ -3,16 +3,18 @@ title: 'YouTube 字幕特效是如何製作的？'
 date: Tue, 29 Jan 2019 15:21:05 +0000
 draft: false
 tags: ['教學']
-categories: ['js','web']
+categories: ['web']
 ---
 
 因為時不時可以在一些 MV 裡看見一些很庫蹦來蹦去的字幕，於是便上網搜尋，了解後發現 YouTube 用了 webVTT 當作字幕好朋友來用，可以隨意更改位置和大小，看起來應該是類似 SRT 那樣。
 
 像是這首
+{{< youtube HIRiduzNLzQ >}} 
 
 和這首
+{{< youtube wIft-t-MQuE >}} 
 
-若要為 YouTube 上的字幕改一點位置，利用 [youtube-dl](https://github.com/rg3/youtube-dl) 把字幕搞下來後就可以來亂改位置了
+若要為 YouTube 上的字幕改一點位置，利用 [youtube-dl](https://github.com/rg3/youtube-dl) 把字幕下載下來後就可以來亂改位置了
 
 > ```
 > youtube-dl --skip-download --sub-format vtt --write-sub --sub-lang zh-TW <link>
@@ -38,7 +40,7 @@ categories: ['js','web']
 
 * * *
 
-[W3C](https://w3c.github.io/webvtt) 裡面還有更詳細的說明，像是可以寫好一段樣式後給樣式名稱那段字幕就乖乖套用了
+[W3C](https://w3c.github.io/webvtt) 裡面還有更詳細的說明，像是可以像 CSS 那樣幫每段字幕加上 class 來套用相同的樣式。
 
 ### 參考資料
 
