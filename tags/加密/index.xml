@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>加密 on 勝勝</title>
+    <link>https://blog.gnehs.net/tags/%E5%8A%A0%E5%AF%86/</link>
+    <description>Recent content in 加密 on 勝勝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 28 Feb 2017 03:07:59 +0000</lastBuildDate><atom:link href="https://blog.gnehs.net/tags/%E5%8A%A0%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解決刷機產生的Data分區加密問題</title>
+      <link>https://blog.gnehs.net/fix-encryption-unsuccessful/</link>
+      <pubDate>Tue, 28 Feb 2017 03:07:59 +0000</pubDate>
+      
+      <guid>https://blog.gnehs.net/fix-encryption-unsuccessful/</guid>
+      <description>我是不知道其他系統或手機能不能用啦，反正我 P9 是成功了 就是這個 Encryption Unsuccessful 害我浪費了一小時生命 :( 首先進入TWRP，選&amp;quot;Wipe&amp;quot; 選&amp;quot;Advanced Wipe&amp;quot; &amp;ldquo;Data&amp;quot;分區打勾，進入&amp;quot;Repair or Change File System&amp;rdquo; 選&amp;quot;Change File System&amp;quot; 選&amp;quot;F2FS&amp;quot; *我是不知道為什麼要選 F2FS 啦，也許你可以試試其他的 滑過去就好了 參考文章 &amp;ldquo;Encryption Unsuccessful&amp;rdquo; CROMBI-KK and GRIMKERNEL [How To] Install OxygenOS 2.2.0 Update (Root/Non Root Users) Without Data Loss!!</description>
+    </item>
+    
+  </channel>
+</rss>
