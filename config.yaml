@@ -18,6 +18,11 @@ Taxonomies:
   category: "categories"
   tag: "tags"
   series: "series"
+
+permalinks:
+  posts: "/:filename/"   # 增加此处 年/月/日/文章别名，保持和wordpress默认的一致
+  categories: "/categories/:slug/"
+  tags: "/tags/:slug/"
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: 勝勝
