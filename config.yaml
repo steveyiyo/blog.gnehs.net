@@ -13,8 +13,6 @@ features: ["some", "awesome", "features"]
 
 lang: zh
 
-googleAnalytics: UA-123-45
-
 minify:
     disableXML: true
     minifyOutput: true
